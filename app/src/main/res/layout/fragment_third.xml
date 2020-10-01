@@ -85,13 +85,14 @@
         android:id="@+id/titulo2"
         android:layout_width="342dp"
         android:layout_height="63dp"
-        android:layout_marginBottom="576dp"
+        android:layout_marginBottom="536dp"
         android:text="@string/Titulo_P3"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView

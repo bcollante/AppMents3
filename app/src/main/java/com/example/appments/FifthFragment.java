@@ -38,9 +38,6 @@ public class FifthFragment extends Fragment {
     private Bundle savedInstanceState;
 
 
-
-
-
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
@@ -51,12 +48,11 @@ public class FifthFragment extends Fragment {
                         .navigate(R.id.action_Tryagain);
             }
         });
-        super.onViewCreated(view, savedInstanceState);
+
 
         int tot=FifthFragmentArgs.fromBundle(getArguments()).getTotal();
-        //total=getArguments().getInt("total", 0);
         final TextView scoree=view.findViewById(R.id.scorefinal);
-        scoree.setText(tot);
+        scoree.setText(""+tot);
         final TextView umbrte=view.findViewById(R.id.umbraltext);
         final SeekBar umbrse=view.findViewById(R.id.umbralseek);
         final TextView decision=view.findViewById(R.id.resultfinal);
