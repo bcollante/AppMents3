@@ -56,7 +56,7 @@ public class FifthFragment extends Fragment {
         int tot=FifthFragmentArgs.fromBundle(getArguments()).getTotal();
         //total=getArguments().getInt("total", 0);
         final TextView scoree=view.findViewById(R.id.scorefinal);
-        scoree.setText("El puntaje final es: " + tot);
+        scoree.setText(tot);
         final TextView umbrte=view.findViewById(R.id.umbraltext);
         final SeekBar umbrse=view.findViewById(R.id.umbralseek);
         final TextView decision=view.findViewById(R.id.resultfinal);
@@ -93,7 +93,7 @@ public class FifthFragment extends Fragment {
                     }
                     else{
 
-                        decision.setText("Se puede hacer la cirugía");
+                        decision.setText("¡Se puede realizar la cirugía!");
                     }
                 }
 

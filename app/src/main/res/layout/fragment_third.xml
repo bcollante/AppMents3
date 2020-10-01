@@ -62,6 +62,7 @@
         android:layout_marginStart="36dp"
         android:layout_marginBottom="36dp"
         android:text="@string/P21"
+        android:textColor="@color/colorBlack"
         app:layout_constraintBottom_toTopOf="@+id/text22"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -82,15 +83,15 @@
     <TextView
 
         android:id="@+id/titulo2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="564dp"
+        android:layout_width="342dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="576dp"
         android:text="@string/Titulo_P3"
+        android:textAlignment="center"
         android:textColor="#000000"
-        android:textSize="18sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.641"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -100,6 +101,7 @@
         android:layout_marginStart="36dp"
         android:layout_marginBottom="36dp"
         android:text="@string/P22"
+        android:textColor="@color/colorBlack"
         app:layout_constraintBottom_toTopOf="@+id/text23"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -110,6 +112,7 @@
         android:layout_marginStart="36dp"
         android:layout_marginBottom="36dp"
         android:text="@string/P23"
+        android:textColor="@color/colorBlack"
         app:layout_constraintBottom_toTopOf="@+id/text24"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -120,6 +123,7 @@
         android:layout_marginStart="36dp"
         android:layout_marginBottom="36dp"
         android:text="@string/P24"
+        android:textColor="@color/colorBlack"
         app:layout_constraintBottom_toTopOf="@+id/text25"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -130,6 +134,7 @@
         android:layout_marginStart="36dp"
         android:layout_marginBottom="24dp"
         android:text="@string/P25"
+        android:textColor="@color/colorBlack"
         app:layout_constraintBottom_toTopOf="@+id/text26"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -140,6 +145,7 @@
         android:layout_marginStart="36dp"
         android:layout_marginBottom="104dp"
         android:text="@string/P26"
+        android:textColor="@color/colorBlack"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -174,6 +180,7 @@
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="24dp"
         android:text="   1       2      3       4      5"
+        android:textColor="@color/colorBlack"
         app:layout_constraintBottom_toTopOf="@+id/seekbarP21"
         app:layout_constraintEnd_toEndOf="@+id/seekbarP21"
         app:layout_constraintHorizontal_bias="0.0"
@@ -194,8 +201,10 @@
         android:id="@+id/cuenta2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="44dp"
+        android:textColor="@color/colorInfo"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -204,7 +213,9 @@
         android:layout_width="41dp"
         android:layout_height="40dp"
         android:layout_marginBottom="36dp"
+        android:backgroundTint="#FFFFFF"
         android:src="@android:drawable/ic_menu_info_details"
+        android:tint="@color/colorInfo"
         app:layout_constraintBottom_toTopOf="@+id/F2DA"
         app:layout_constraintEnd_toStartOf="@+id/seekbarP22"
         app:layout_constraintHorizontal_bias="1.0"
@@ -215,7 +226,10 @@
         android:layout_width="41dp"
         android:layout_height="41dp"
         android:layout_marginBottom="36dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
         android:src="@android:drawable/ic_menu_info_details"
+        android:tint="@color/colorInfo"
         app:layout_constraintBottom_toTopOf="@+id/F3DA"
         app:layout_constraintEnd_toStartOf="@+id/seekbarP21"
         app:layout_constraintHorizontal_bias="1.0"
@@ -226,7 +240,9 @@
         android:layout_width="41dp"
         android:layout_height="40dp"
         android:layout_marginBottom="36dp"
+        android:backgroundTint="#FFFFFF"
         android:src="@android:drawable/ic_menu_info_details"
+        android:tint="@color/colorInfo"
         app:layout_constraintBottom_toTopOf="@+id/F4DA"
         app:layout_constraintEnd_toStartOf="@+id/seekbarP23"
         app:layout_constraintHorizontal_bias="1.0"
@@ -237,7 +253,9 @@
         android:layout_width="41dp"
         android:layout_height="40dp"
         android:layout_marginBottom="36dp"
+        android:background="#FFFFFF"
         android:src="@android:drawable/ic_menu_info_details"
+        android:tint="@color/colorInfo"
         app:layout_constraintBottom_toTopOf="@+id/F5DA"
         app:layout_constraintEnd_toStartOf="@+id/seekbarP24"
         app:layout_constraintHorizontal_bias="1.0"
@@ -248,7 +266,9 @@
         android:layout_width="41dp"
         android:layout_height="40dp"
         android:layout_marginBottom="24dp"
+        android:background="#FFFFFF"
         android:src="@android:drawable/ic_menu_info_details"
+        android:tint="@color/colorInfo"
         app:layout_constraintBottom_toTopOf="@+id/F6DA"
         app:layout_constraintEnd_toStartOf="@+id/seekbarP25"
         app:layout_constraintHorizontal_bias="1.0"
@@ -259,7 +279,9 @@
         android:layout_width="41dp"
         android:layout_height="40dp"
         android:layout_marginBottom="104dp"
+        android:background="#FFFFFF"
         android:src="@android:drawable/ic_menu_info_details"
+        android:tint="@color/colorInfo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/seekbarP26"
         app:layout_constraintHorizontal_bias="1.0"
