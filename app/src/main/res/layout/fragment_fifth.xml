@@ -5,6 +5,7 @@
     android:id="@+id/frameLayout2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".FifthFragment">
 
     <!-- TODO: Update blank fragment layout -->
@@ -35,12 +36,11 @@
         android:id="@+id/umbraltext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/colorBlack"
         android:layout_marginBottom="76dp"
-
         android:fontFamily="sans-serif-thin"
         android:textColor="@color/colorBlack"
-        android:textSize="14sp"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/calcularbot"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -96,12 +96,13 @@
         android:id="@+id/resultfinal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="28dp"
         android:background="#7DDCE8"
         android:textColor="@color/colorBlack"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/calcularbot"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView

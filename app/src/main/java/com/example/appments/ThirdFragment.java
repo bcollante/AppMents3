@@ -76,7 +76,7 @@ public class ThirdFragment extends Fragment {
         final SeekBar cuenta4=view.findViewById(R.id.seekbarP24);
         final SeekBar cuenta5=view.findViewById(R.id.seekbarP25);
         final SeekBar cuenta6=view.findViewById(R.id.seekbarP26);
-
+        total=6+totparc;
         cuenta1.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
